@@ -1,7 +1,8 @@
 ---
 home: true
+
 title: Forever24
-heroImage: /images/hero.png
+heroImage: false
 heroText: 班级相册和博客
 tagline: 这里是2024级MBA4班的博客，记录我们的精彩瞬间和学习笔记
 actions:
@@ -20,3 +21,7 @@ features:
     details: 实时更新班级活动和重要通知，保持联系与活力。
 footer: © 2024 大连理工大学MBA4班 | 班级博客
 ---
+
+# 成员
+
+<AvatarGrid />

@@ -1,6 +1,8 @@
 # 相册
 
-这里是班级的相册页面。展示我们的活动瞬间和日常生活。
+这里是班级的照片墙。展示我们的活动瞬间和日常生活。
+
+<AvatarGrid />
 
 ## 开学
 
@@ -79,4 +81,6 @@
 ## 其他
 
 ![Weixin Image_20241223215250.jpg](http://img.witploy.cn/Weixin%20Image_20241223215250.jpg?imageslim/zlevel/5)
+
+
 

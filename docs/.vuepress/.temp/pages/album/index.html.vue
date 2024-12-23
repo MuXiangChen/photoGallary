@@ -1,6 +1,6 @@
 <template><div><h1 id="相册" tabindex="-1"><a class="header-anchor" href="#相册"><span>相册</span></a></h1>
-<p>这里是班级的相册页面。展示我们的活动瞬间和日常生活。</p>
-<h2 id="开学" tabindex="-1"><a class="header-anchor" href="#开学"><span>开学</span></a></h2>
+<p>这里是班级的照片墙。展示我们的活动瞬间和日常生活。</p>
+<AvatarGrid /><h2 id="开学" tabindex="-1"><a class="header-anchor" href="#开学"><span>开学</span></a></h2>
 <h2 id="案例大赛" tabindex="-1"><a class="header-anchor" href="#案例大赛"><span>案例大赛</span></a></h2>
 <p><img src="http://img.witploy.cn/Weixin Image_20241223215108.jpg?imageslim/zlevel/5" alt="Weixin Image_20241223215108.jpg">
 <img src="http://img.witploy.cn/Weixin Image_20241223215133.jpg?imageslim/zlevel/5" alt="Weixin Image_20241223215133.jpg">

@@ -1,6 +1,9 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { getDirname, path } from 'vuepress/utils'
+const __dirname = import.meta.dirname || getDirname(import.meta.url)
 
 export default defineUserConfig({
   
@@ -9,8 +12,20 @@ export default defineUserConfig({
     // 默认主题配置
     navbar: [
         {
-          text: '首页',
-          link: '/',
+            text: '首页',
+            link: '/',
+        },
+        {
+            text: '学习指南',
+            link: '/guide/',
+        },
+        {
+            text: '论文攻略',
+            link: '/paper/',
+        },
+        {
+            text: '通讯录',
+            link: '/contact/',
         },
         {
             text: '相册',
@@ -25,7 +40,7 @@ export default defineUserConfig({
   
   base: '/photoGallary/',
   lang: 'zh-CN',
-  title: '大连理工大学2024级MBA-4班',
+  title: 'DUT MBA Class4',
   description: '这是我的第一个 VuePress 站点',
 
   head: [
@@ -46,7 +61,13 @@ export default defineUserConfig({
       {
         serviceWorker: true,
         updatePopup: true
-      }
+      },
+      registerComponentsPlugin({
+        components: {
+          HelloWorld: path.resolve(__dirname, './components/HelloWorld.vue'),
+          AvatarGrid: path.resolve(__dirname, './components/AvatarGrid.vue'),
+        },
+      }),
     ]
   ],
   
